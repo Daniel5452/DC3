@@ -1,0 +1,12 @@
+train:
+  - C:/Users/danie/Downloads/DC3/DeepFish/DeepFish/Classification/train/valid
+  - C:/Users/danie/Downloads/DC3/DeepFish/DeepFish/Classification/train/empty
+val:
+  - C:/Users/danie/Downloads/DC3/DeepFish/DeepFish/Classification/val/valid
+  - C:/Users/danie/Downloads/DC3/DeepFish/DeepFish/Classification/val/empty
+test:
+  - C:/Users/danie/Downloads/DC3/DeepFish/DeepFish/Classification/test/valid
+  - C:/Users/danie/Downloads/DC3/DeepFish/DeepFish/Classification/test/empty
+
+nc: 2  # Number of classes (empty and fish)
+names: ['empty', 'fish']  # 0 for empty, 1 for fish/valid
